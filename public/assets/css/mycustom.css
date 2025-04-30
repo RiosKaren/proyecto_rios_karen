@@ -1,0 +1,149 @@
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+main {
+    background-color: #121212;
+    color: #fff;
+    padding-top: 150px;
+}
+
+/* Mueve el carrusel hacia arriba */
+#mainCarousel {
+    position: relative;
+    top: -68px; /* Mueve el carrusel hacia arriba */
+}
+
+/* footer */ 
+    .pt-5{
+        background-color: #121212;
+    }
+    .footer-banner {
+      background: url("../img/footerpic.jpg") center/cover no-repeat;
+      padding: 60px 20px;
+      position: relative;
+      color: white;
+    }
+
+    .footer-banner::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .footer-banner .banner-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .footer-banner a {
+      color: white;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .footer-banner a:hover {
+      color: #dc3545;
+    }
+
+    .icon {
+      width: 50px;
+      height: auto;
+    }
+
+    .payment-icon {
+      width: 40px;
+      height: auto;
+    }
+
+    .btn-subscribe {
+      background-color: rgb(131, 131, 131);
+      color: #fff;
+      border: 100px;
+      border-color: white;
+      border-radius: 10px;
+    }
+
+    .btn-subscribe:hover {
+      background-color: red;
+      transition-duration: 0.5s;
+    }
+
+/* HEADER */
+.navbar-custom {
+    background-color: #212529;
+    color: black;
+  }
+  
+  .navbar-custom .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .navbar-custom .nav-link {
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-custom .navbar-brand img {
+      max-height: 40px;
+    }
+  }
+  
+  /* Estilos para el offcanvas */
+  .offcanvas-body {
+    background-color: #212529;
+    font-family: 'Poppins', sans-serif;
+  }
+  .offcanvas-header{
+    background-color: #212529;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+  }
+  .offcanvas-custom {
+    background-color: #212529;
+    color: white;
+  }
+  
+  .offcanvas-custom .nav-link {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .offcanvas-custom .nav-link:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  #toolbarContainer {
+    display: none !important;
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+  }
