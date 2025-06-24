@@ -6,10 +6,10 @@
 
       <section class="mb-4">
         <h4 class="fw-bold">1. Alcance y uso del sitio</h4>
-        <p>Este sitio web está gestionado por Pluto Sneakers y su uso se encuentra sujeto a los presentes Términos y Condiciones. Al acceder a <a href="https://www.plutosneakers.com" class="text-danger">www.plutosneakers.com</a>, aceptás utilizarlos de manera responsable y conforme a la ley.</p>
+        <p>Este sitio web está gestionado por Pluto Sneakers y su uso se encuentra sujeto a los presentes Términos y Condiciones. Al acceder a <a href="<?= base_url('/') ?>" class="text-danger">www.plutosneakers.com</a>, aceptás utilizarlos de manera responsable y conforme a la ley.</p>
         <p>Pluto Sneakers vende productos exclusivamente a través de este sitio web, con envíos a todo el territorio argentino. No tenemos local físico ni puntos de retiro, por lo que todas las compras se realizan de manera online.</p>
       </section>
-
+  
       <section class="mb-4">
         <h4 class="fw-bold">2. Condiciones de compra</h4>
         <p>Para realizar un pedido, el cliente debe ser mayor de 18 años o contar con autorización de un adulto responsable. Una vez hecha la compra, recibirás un correo electrónico de confirmación con el detalle del pedido.</p>

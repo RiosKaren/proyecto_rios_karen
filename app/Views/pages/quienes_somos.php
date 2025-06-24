@@ -1,9 +1,10 @@
 <main class="container py-5 fade-in bg-dark">
   <div class="row justify-content-center">
     <div class="col-lg-10">
+      
       <!--Texto-->
       <h1 class="text-center mb-4 fw-bold text-uppercase text-danger">Sobre Nosotros</h1>
-      <p class="lead text-white">Pluto Sneakers nace con una idea clara: crear un espacio donde la pasión por las zapatillas, la moda urbana y la autenticidad se crucen en cada paso.</p>
+      <p class="text-white">Pluto Sneakers nace con una idea clara: crear un espacio donde la pasión por las zapatillas, la moda urbana y la autenticidad se crucen en cada paso.</p>
 
       <p class="text-white">Somos más que una tienda online. <strong>Somos una comunidad.</strong> Un punto de encuentro para quienes no solo usan zapatillas, sino que las viven. Para quienes saben que un par de Air Jordan no es solo calzado, sino una declaración. Para quienes reconocen una colaboración entre artistas y marcas como una obra de arte. Para los que entienden que lo urbano no es una tendencia: es cultura.</p>
 
@@ -22,6 +23,24 @@
 
       <h4 class="text-center mt-5 fw-bold text-danger">Bienvenido a Pluto Sneakers.</h4>
       <p class="text-center text-white">Donde la cultura urbana se pisa con estilo.</p>
+    </div>
+  </div>
+
+  <!--Fotos circulares-->
+  <div class="row justify-content-center mt-5">
+    <div class="col-6 col-md-3 text-center">
+      <img src="<?= base_url('assets/img/karen.jpg') ?>" 
+          alt="Karen" 
+          class="img-fluid rounded-circle" 
+          style="width:150px; height:150px; object-fit:cover;">
+      <h6 class="text-white mt-2">Rios, Karen Silvina</h6>
+    </div>
+    <div class="col-6 col-md-3 text-center">
+      <img src="<?= base_url('assets/img/wilson.jpg') ?>" 
+          alt="Wilson" 
+          class="img-fluid rounded-circle" 
+          style="width:150px; height:150px; object-fit:cover;">
+      <h6 class="text-white mt-2">Merlo, Wilson Julian</h6>
     </div>
   </div>
 </main>
