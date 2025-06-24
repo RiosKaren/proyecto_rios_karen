@@ -26,20 +26,20 @@
       <label class="form-label">Talles y stock</label>
       <div class="row g-2 align-items-center mb-2 talle-group">
         <div class="col-md-5">
-  <select name="talles[]" class="form-control" required>
-    <option value="">Seleccioná talle</option>
-    <?php
-      $talles = [
-        "6 US","6.5 US","7 US","7.5 US","8 US","8.5 US",
-        "9 US","9.5 US","10 US","10.5 US","11 US","11.5 US",
-        "12 US","12.5 US"
-      ];
-      foreach($talles as $t) {
-        echo "<option value=\"{$t}\">{$t}</option>";
-      }
-    ?>
-  </select>
-</div>
+        <select name="talles[]" class="form-control" required>
+          <option value="">Seleccioná talle</option>
+          <?php
+            $talles = [
+              "6 US","6.5 US","7 US","7.5 US","8 US","8.5 US",
+              "9 US","9.5 US","10 US","10.5 US","11 US","11.5 US",
+              "12 US","12.5 US"
+            ];
+            foreach($talles as $t) {
+              echo "<option value=\"{$t}\">{$t}</option>";
+            }
+          ?>
+        </select>
+      </div>
         <div class="col-md-5">
           <input type="number" name="stocks[]" class="form-control" placeholder="Stock" required>
         </div>

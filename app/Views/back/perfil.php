@@ -17,7 +17,7 @@
                     <?php 
                     //Solo mostrar "Mis Órdenes" y "Mis Consultas" si NO es admin
                     //Asumiendo que el rol admin tiene id_rol = 1 o descripcion = 'admin'
-                    if ($usuario['id_rol'] != 1): // Cambia el 1 por el ID que corresponda al rol admin
+                    if ($usuario['id_rol'] != 1):
                     ?>
                     <a href="#mis-ordenes" class="list-group-item list-group-item-action" data-bs-toggle="pill">
                         <i class="bi bi-bag me-2"></i>Mis Órdenes
